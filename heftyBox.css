@@ -1,0 +1,66 @@
+<style type="text/css">
+    .highlight {color: red;}
+
+    .heftyBox {
+        position: relative;
+        border: solid 1px #555;
+        overflow: auto;
+        display: inline-table;
+        overflow: hidden;
+        font-family: "Arial";
+        font-size: 12px;
+    }
+
+    .heftyBox ul {
+        margin: 0px 5px !important;
+        padding: 0px;
+        overflow: auto;
+    }
+
+    .heftyBox ul li {
+        list-style-type: none;
+        border: solid 1px transparent;
+        padding: 3px 1px;
+    }
+
+    .heftyBox ul li[checked] {
+        color: white;
+        background-color: #115;
+        border: dashed 1px #FFF;
+        background-image: -webkit-linear-gradient(top, rgba(220, 220, 220, 0.2), rgba(30, 30, 30, 0.2));
+        background-image: -moz-linear-gradient(top, rgba(220, 220, 220, 0.2), rgba(30, 30, 30, 0.2));
+        background-image: -ms-linear-gradient(top, rgba(220, 220, 220, 0.2), rgba(30, 30, 30, 0.2));
+        background-image: -o-linear-gradient(top, rgba(220, 220, 220, 0.2), rgba(30, 30, 30, 0.2));
+        background-image: linear-gradient(top, rgba(220, 220, 220, 0.2), rgba(30, 30, 30, 0.2));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#22DDDDDD', endColorstr='#22333333');
+    }
+
+    .list_filter {
+        position: relative;
+        padding-bottom: 3px;
+        margin-bottom: 3px;
+        border-bottom: solid 1px #CCC;
+    }
+
+    .heftyBox label {
+        margin-left: 3px;
+    }
+
+    .heftyBox li input {
+        width: 13px;
+        height: 13px;
+        padding: 0;
+        margin:0;
+        vertical-align: bottom;
+        position: relative;
+        top: -1px;
+        *overflow: hidden;
+    }
+
+    .heftyBox input.list_filter {
+        margin: 2px;
+        width: 155px;
+    }
+
+
+</style>
