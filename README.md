@@ -33,20 +33,25 @@ Usage
 
 __Javascript__
 
+```javascript
     $(document).ready() {
       $('#my_select').heftyBox();
     }
+```
 
 __HTML__
 
+```html
     <select name="test" id="my_select" multiple="multiple" bar="baz">
       <option value="1">One</option>
       <option value="2">Two</option>
       <option value="3" foo="bar">Three</option>
     </select>
+```
 
 __Output__
 
+```html
     <div class="heftyBox" id="test_container" style="width: auto; height: 150px; min-width: 159px; ">
       <input id="test_filter" class="list_filter">
       <a href="#">Select All</a>
@@ -65,4 +70,4 @@ __Output__
         </li>
       </ul>
     </div>
-
+```
